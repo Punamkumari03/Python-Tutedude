@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+header,section{
+    overflow: hidden;
+}
+:root{
+    --light-black:#2e2c2caf;
+    --bggradient:linear-gradient(to bottom,#79d1ca,#ffffff);
+    
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background: var(--bggradient);
+}
+header a {
+    
+    color: rgb(20, 19, 19);
+     font-size:1em;
+     font-family: 'Merriweather Sans', sans-serif;
+     font-weight:400;
+     margin: 8px;
+     font-size: larger;
+     font-weight: 600;
+     margin-bottom: -10px;
+     
+ }
+ header .nav-button{
+   
+    color: cornsilk;
+    border-radius: 5px;
+    margin-bottom: -10px;
+    margin: 8px;
+ }
+ header .nav-button .btn-1{
+    background: rgb(211, 183, 233);
+    color: black;
+    margin: 8px;
+    border-radius: 11px;
+    height: 35px;
+    width: 93px;
+    border: none;
+    font-size: 18px;
+
+ }
+ header .nav-button  .btn-2{
+    background: rgb(147, 85, 197);
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 11px;
+    height: 35px;
+    width: 115px;
+    border: none;
+    font-size: 18px;
+}
+.header .line{
+    color: rgb(197, 139, 85);
+}
+.navbar-brand{
+    color: rgb(153, 29, 202);
+}
+.navbar .navbar-brand{
+    font-size: 32px;
+    margin-top: -3px;
+}
+.hero-section{
+    margin: 50px;
+    margin-left: 190px;
+    width: 70%;
+    height: 68vh;
+    background: linear-gradient(to left,#9cdbeb,#ffffff);
+    border-radius: 8px;
+    box-sizing: border-box;
+      box-shadow: 2px 20px 20px rgba(40, 36, 44, 0.349);;
+}
+.hero-section .row h2{
+    font-size: 2.5rem;
+    margin: 20px;
+    font-weight: 600;
+    color: rgb(23, 104, 70);
+}
+.hero-section .row  p{
+    margin:20px ;
+    font-weight: 500;
+    margin-top: 1px;
+
+}
+.hero-section .row   .skill{
+    color: rgb(79, 48, 192);
+    font-weight: 600;
+    margin: 20px;
+
+}
+.hero-section .row .btn{
+    cursor: pointer;
+    background: linear-gradient(to left,#957ed4,#5907f3);
+    color: white;
+    width: 30%;
+    height: 54px;
+    border: none;
+    text-align: center;
+    margin-left: 22px;
+    font-weight: 800;
+}
+
+.hero-section .row img{
+    margin: 70px auto;
+    width: 109%;
+    height: 273px;
+    margin-left: -56px;
+    border-radius: 8px;
+
+}
+
+ .box-section{
+    display: block;
+    margin: 20px;
+    background:  linear-gradient(to left,#a404cc,#4d0bc9);
+    width: 55%;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    margin-left: 280px;
+    margin-top: -80px;
+    border-radius: 8px;
+}
+.box-section h3{
+    font-size: 16px;
+    color: cornsilk;
+    margin: 8px auto;
+    line-height: 35px;
+} 
+.box-section .fas{
+    font-size: 20px;
+    margin: 10px;
+}
+.curriculm-section{
+    width: 90%;
+    height: 100vh;
+    background: rgb(234, 224, 245);
+    margin-left: 60px;
+}
+.curriculm-section h2{
+    font-size: 32px;
+    margin: 20px;
+    font-weight: 700;
+    color: rgb(105, 32, 139);
+    margin-left: 93px;
+}
+.curriculm-section h4{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 2px;
+    margin-left: 93px;
+}
+.curriculm-section h4 .fas {
+    font-size: 22px;
+    color: rgb(95, 17, 114);
+    margin: 7px;
+    
+}
+.curriculm-section .btn{
+    background: linear-gradient(to left,#c98bec,#8f76be);
+    margin: 83px;
+    margin-left: 250px;
+    padding: 9px;
+    width: 184px;
+}
+.curriculm-section  .far{
+    color: rgb(252, 135, 2);
+    font-size: 20px;
+    
+}
+.mid .intro{
+    background: none;
+    border: 2px solid purple;
+    background: none;
+    height: 51px;
+    border-radius: 8px;
+    width: 400px;
+    border: 4px solid purple;
+    text-align: left;
+    margin-left: -149px;
+    margin: 20px;
+    margin-left: -180px;
+    font-size: 20px;
+    color: purple;
+}
+.mid .play .fas{
+    margin: 20px;
+    font-size: 40px;
+    color: rgb(252, 135, 2);
+    margin-left: 50px;
+
+}
+.mid h3{
+    font-size: 19px;
+    color: black;
+    margin: 20px;
+    font-weight: 500;
+    margin-left: 34px;
+    text-align: center;
+    align-items: center;
+
+}
+.mid h3 .fas{
+    color: purple;
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+}
+.week1 .btn1{
+    margin: 20px;
+    width: 17%;
+    height: 51%;
+    margin-top: 26px;
+    background: none;
+    border: 1.5px solid purple;
+}
+
+
+
+    .week1 .btn2{
+        margin: 20px;
+        background: linear-gradient(to left,#a404cc,#4d0bc9);
+        border-radius: 10px;
+        width: 90%;
+        height: 59%;
+        border: none;
+        margin-left: -400px;
+    }
+    .week2 .btn1{
+        margin: 20px;
+        width: 17%;
+        height: 51%;
+        margin-top: 26px;
+        background: none;
+        border: 1.5px solid purple;
+    }
+    
+    
+    
+        .week2 .btn2{
+            margin: 20px;
+            background: linear-gradient(to left,#a404cc,#4d0bc9);
+            border-radius: 10px;
+            width: 90%;
+            height: 59%;
+            border: none;
+            margin-left: -300px;
+        }
+        .week3 .btn1{
+            margin: 20px;
+            width: 17%;
+            height: 51%;
+            margin-top: 26px;
+            background: none;
+            border: 1.5px solid purple;
+        }
+        
+        
+        
+            .week3 .btn2{
+                margin: 20px;
+                background: linear-gradient(to left,#a404cc,#4d0bc9);
+                border-radius: 10px;
+                width: 90%;
+                height: 59%;
+                border: none;
+                margin-left: -200px;
+            }
+            .week4 .btn1{
+                margin: 20px;
+                width: 17%;
+                height: 51%;
+                margin-top: 26px;
+                background: none;
+                border: 1.5px solid purple;
+            }
+            
+            
+            
+                .week4 .btn2{
+                    margin: 20px;
+                    background: linear-gradient(to left,#a404cc,#4d0bc9);
+                    border-radius: 10px;
+                    width: 90%;
+                    height: 59%;
+                    border: none;
+                    margin-left: -100px;
+                }
+.course-section{
+   
+    height: 60vh;
+    margin-top: 50px;
+    background: rgb(232, 244, 248);
+    width: 112%;
+    margin-left: -70px;
+    text-align: center;
+    align-items: center;
+}
+.course-section .head h2{
+    color: black;
+    text-align: left;
+    font-weight: 800;
+    font-size: 28px;
+    margin-top: 46px;
+
+}
+.course-section .card{
+    width: 80%;
+    height: 34vh;
+    margin: 20px;
+    background: rgb(167, 202, 211);
+    border: none;
+    margin-top: 10px;
+    box-shadow: 2px 10px 10px rgba(40, 36, 44, 0.349);
+
+}
+.course-section .card-title{
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    font-size: 25px;
+    font-weight: 800;
+    color:rgb(95, 25, 161);
+}
+.course-section .card-text{
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+}
+
+.course-section .card button{
+    background:linear-gradient(to left,#a404cc,#4d0bc9);
+    border: none;
+    
+    width: 35%;
+    height: 40px;
+    color: white;
+    box-shadow: 2px 5px 5px rgba(30, 31, 29, 0.349);
+}
+.learn-section{
+    width: 111%;
+    margin-left: -63px;
+    height: 40vh;
+    background: rgb(226, 235, 243);
+}
+.learn-section h4{
+margin: 30px;
+
+font-size: 29px;
+font-weight: 600;
+color: purple;
+}
+.learn-section img{
+    width: 100px;
+    height: 67px;
+
+}
+.faq-section{
+    width: 80%;
+    height: 40%;
+    background: rgb(207, 171, 171);
+    margin: 30px;
+    margin-left: 120px;
+    border-radius: 20px;
+}
+.faq-section h4{
+    margin: 30px;
+
+font-size: 29px;
+font-weight: 600;
+color: purple;
+margin-top: -1px;
+}
+.faq-section h5{
+    margin: 30px;
+
+    font-size: 20px;
+    font-weight: 600;
+    color: purple;
+}
+.faq-section input{
+    width: 151%;
+    height: 71%;
+    margin: 20px;
+    margin-left: -80px;
+    border: none;
+    text-align: left;
+    color: white;
+    border-radius: 10px;
+    background: rgb(190, 123, 123);
+}
+.faq-section button{
+    margin: 19px;
+    width: 40%;
+    height: 60%;
+    margin-left: 42px;
+    border: none;
+    border-radius: 8px;
+    background: grey;
+    color: white;
+    
+
+}
+.about-section{
+    width: 90%;
+    height: 100vh;
+    margin: 20px;
+    background:linear-gradient(to left,#ffffff,#e8d9ee);
+    margin-left: 40px;
+}
+.about-section button{
+    background: linear-gradient(to left,#c98bec,#8f76be);
+    border: none;
+    width: 80%;
+    height: 45px;
+    border-radius: 8px;
+}
+.about-section p{
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+.about-section p .fas{
+    font-size: 30px;
+    color: rgb(243, 116, 70);
+}
+.about-section img{
+    width: 77%;
+    height: 89%;
+    margin: 14px;
+    margin-left: 102px;
+}
+.about-section .card{
+    width: 108%;
+    height: 88%;
+    background: none;
+    border: 1.5px solid purple;
+}
+.about-section .card h3{
+    font-size: 10px;
+    font-weight: 600;
+    margin: 20px;
+}
+.about-section .card p{
+    font-size: 15px;
+    margin: 20px
+}
+.benifits-section{
+    width: 69%;
+    height: 85vh;
+    margin: 20px;
+    margin-left: 415px;
+    margin-top: -60px;
+    background: linear-gradient(to left,#ffffff,#b2ebf3);
+    box-shadow: rgba(207, 111, 236, 0.349) 2px 5px 5px;
+}
+.benifits-section h3{
+    margin: 30px;
+
+    font-size: 25px;
+    font-weight: 700;
+    color: purple;
+}
+.benifits-section p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    margin-left: 30px;
+}
+.benifits-section img{
+    height: 60%;
+    width: 97%;
+    margin-top: 20px;
+
+}
+/* footer */
+.footer-section{
+   
+    width: 111%;
+    margin-left: -63px;
+    margin-right: 0px;
+    height: 50vh;
+    background: black;
+    color: white;
+}
+.footer-section h4{
+    margin: 20px;
+    font-size: 25px;
+}
+.footer-section li{
+    margin: 20px;
+    text-decoration: none;
+}
+.footer-section i{
+    font-size: 30px;
+    margin: 20px;
+}
